@@ -2,7 +2,7 @@
 
 A command-line tool written in Go to perform basic security checks on websites.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Requirements](#-requirements)
@@ -16,7 +16,7 @@ A command-line tool written in Go to perform basic security checks on websites.
 
 ---
 
-## ✨ Features
+## Features
 
 - **HTTP/HTTPS Connection Check**: Verifies server response status
 - **SSL/TLS Certificate Analysis**: Evaluates certificate security configuration
@@ -40,7 +40,7 @@ A command-line tool written in Go to perform basic security checks on websites.
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - **Go 1.16** or higher installed on the system
 - **Operating system**: Windows, Linux, or macOS
@@ -48,7 +48,7 @@ A command-line tool written in Go to perform basic security checks on websites.
 
 ---
 
-## 📥 Installation
+## Installation
 
 ### Option 1: Download the executable (for Windows)
 
@@ -70,7 +70,7 @@ go build -o securityminiapp.exe
 
 ---
 
-## 🏗️ Compilation
+## Compilation
 
 ### Basic compilation
 
@@ -103,7 +103,7 @@ go build -ldflags="-s -w" -o securityminiapp.exe
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Basic syntax
 
@@ -130,7 +130,7 @@ securityminiapp.exe https://example.com:8443
 
 ---
 
-## 🔍 How It Works
+## How It Works
 
 ### 1. HTTP Check
 
@@ -191,7 +191,7 @@ Identifies issues and generates recommendations based on findings.
 
 ---
 
-## 📊 Technical Specifications
+## Technical Specifications
 
 ### Code Structure
 
@@ -239,7 +239,7 @@ type SecurityCheckResult struct {
 
 ---
 
-## 📖 Interpreting Results
+## Interpreting Results
 
 ### HTTP Status Codes
 
@@ -262,7 +262,7 @@ type SecurityCheckResult struct {
 
 ---
 
-## 🔒 Security and Privacy
+## Security and Privacy
 
 - **No external dependencies**: Does not require third-party libraries to work
 - **No data storage**: Does not save information about checked URLs
@@ -271,7 +271,7 @@ type SecurityCheckResult struct {
 
 ---
 
-## 🌐 References
+## References
 
 - **Official Website**: [https://www.seg.cl](https://www.seg.cl)
 - **Go Documentation**: [https://go.dev](https://go.dev)
@@ -282,13 +282,13 @@ For more information about web security and best practices, visit [https://www.s
 
 ---
 
-## 📝 License
+## License
 
 This project is free to use and can be modified and distributed.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 To contribute to the project:
 
@@ -301,6 +301,6 @@ To contribute to the project:
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or issues, create an issue in the project repository.

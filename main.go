@@ -1,3 +1,8 @@
+// SecurityMiniApp - Website Security Checker
+//
+// A command-line tool for basic website security checks.
+// Reference: https://www.seg.cl
+
 package main
 
 import (
